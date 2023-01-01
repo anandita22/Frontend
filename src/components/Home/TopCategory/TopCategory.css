@@ -1,0 +1,94 @@
+.TopCategory {
+  background-image: linear-gradient(180deg, #051a89, #081763);
+}
+
+.TopCategory .TopCategorySingle {
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+}
+
+.TopCategoryLogo {
+  max-width: 125px;
+}
+
+.TopCategory .categoryName {
+  font-size: 2rem;
+  max-width: 125px;
+  line-height: 1.2;
+}
+
+.TopCategory .TopCategorySingleChild {
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quizeMasterLogoWrapper {
+  background-color: #427b19;
+}
+
+.nonStopLetterLogoWrapper {
+  background-color: #0985e5;
+}
+
+.numberMazeLogoWrapper {
+  background-color: #ad4b2b;
+}
+
+.quickMathsLogoWrapper {
+  background-color: #158a90;
+}
+
+@media only screen and (max-width: 992px) {
+  .TopCategoryLogo {
+    max-width: 80px;
+  }
+
+  .TopCategory .categoryName {
+    font-size: 1.5rem;
+  }
+
+  .TopCategory .TopCategorySingle {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .TopCategory .TopCategorySingle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .TopCategoryLogo {
+    max-width: 50px;
+  }
+
+  .TopCategory .categoryName {
+    font-size: 1rem;
+  }
+
+  .TopCategory {
+    border-bottom: 4px solid #08084a;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .TopCategory .TopCategorySingle {
+    width: 75px;
+    height: 75px;
+  }
+
+  .TopCategoryLogo {
+    max-width: 50px;
+  }
+
+  .TopCategoryLogoQuize {
+    max-width: 45px;
+  }
+
+  .TopCategory .categoryName {
+    font-size: 0.75rem;
+  }
+}

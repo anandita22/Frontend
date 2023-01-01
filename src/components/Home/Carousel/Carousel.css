@@ -1,0 +1,90 @@
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  background-color: #3e51b5;
+  border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+  width: 8px;
+  height: 8px;
+  background-color: #ffaa00;
+  border-radius: 50%;
+}
+
+.mainCarousel_1 {
+  background-image: radial-gradient(#614a93, #342169, #030338);
+}
+
+.mainCarousel .mainHeading {
+  color: #f7f7f7;
+  font-family: "Anton", sans-serif;
+  font-size: 4rem;
+  line-height: 1.35;
+}
+
+.mainCarousel .subHeading {
+  font-size: 1.875rem;
+}
+
+.mainCarousel .playNow {
+  color: #030338;
+  font-size: 1.875rem;
+  border-radius: 30px;
+  border: 1px solid white;
+  font-weight: 500;
+  padding: 8px 30px;
+  outline: none;
+}
+
+.carousel-indicators {
+  bottom: -10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .mainCarousel .mainBanner_1 {
+    max-width: 300px;
+  }
+
+  .mainCarousel .mainHeading {
+    color: #f7f7f7;
+    font-family: "Anton", sans-serif;
+    font-size: 2.75rem;
+    line-height: 1.35;
+  }
+
+  .mainCarousel .subHeading {
+    font-size: 1.125rem;
+  }
+
+  .mainCarousel .playNow {
+    font-size: 1.25rem;
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 8px 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mainCarousel .mainHeading {
+    font-size: 1.125rem;
+  }
+
+  .mainCarousel .subHeading {
+    font-size: 0.75rem;
+  }
+
+  .mainCarousel .playNow {
+    font-size: 0.75rem;
+    border-radius: 12px;
+    padding: 3px 10px;
+  }
+
+  .mainCarousel .mainBanner_1 {
+    max-width: 150px;
+  }
+
+  .carousel-indicators {
+    bottom: -15px;
+  }
+}

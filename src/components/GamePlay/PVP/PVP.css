@@ -1,0 +1,101 @@
+.mainDivLeaderboard::-webkit-scrollbar,
+.playGuestPage::-webkit-scrollbar,
+.playPVPPage::-webkit-scrollbar {
+  width: 7px;
+}
+
+.mainDivLeaderboard::-webkit-scrollbar-thumb,
+.playGuestPage::-webkit-scrollbar-thumb,
+.playPVPPage::-webkit-scrollbar-thumb {
+  width: 7px;
+  background-color: #b71c2c;
+  border: 1px solid transparent;
+}
+
+.mainDivLeaderboard,
+.playGuestPage,
+.playPVPPage,
+.matchingScreenWrapper,
+.youWonScreenWrapper,
+.youLooseScreenWrapper,
+.connectionIssueScreen,
+.matchTieScreen {
+  left: 0;
+  bottom: -100%;
+  background-image: linear-gradient(180deg, #051a89, #081763);
+  overflow-y: scroll;
+  z-index: 60;
+  transition: bottom 0.4s;
+}
+
+.showLeaderboard {
+  bottom: 0%;
+  transition: bottom 0.4s;
+}
+
+.closeLeaderboard {
+  max-width: 30px;
+  cursor: pointer;
+}
+
+.matchingScreenWrapper .gameText,
+.youWonScreenWrapper .gameText,
+.youLooseScreenWrapper .gameText,
+.connectionIssueScreen .gameText,
+.matchTieScreen .gameText {
+  font-size: 1.6em;
+}
+
+.playerImagesWrapper img.pvpUserImage {
+  border: 5px solid white;
+  max-width: 100px;
+}
+
+.playerNamesWrapper h5 {
+  font-size: 1rem;
+}
+
+.youWonScreenWrapper .playerImagesWrapper .pvpUserImage,
+.youLooseScreenWrapper .playerImagesWrapper .pvpUserImage,
+.connectionIssueScreen .playerImagesWrapper .pvpUserImage,
+.matchTieScreen .playerImagesWrapper .pvpUserImage {
+  max-width: 75px;
+  border: 4px solid white;
+}
+
+.youWonScreenWrapper .playerImagesWrapper h5,
+.youLooseScreenWrapper .playerImagesWrapper h5,
+.connectionIssueScreen .playerImagesWrapper h5,
+.matchTieScreen .playerImagesWrapper h5 {
+  font-size: 0.75rem;
+}
+
+.pvpCTA .pvpBtn {
+  border: 4px solid #5a060f;
+  border-radius: 18px;
+  font-size: 0.875rem;
+}
+
+.youWonImage {
+  max-width: 275px;
+}
+
+.pvpBtn {
+  width: 200px;
+}
+
+.rematchBtn {
+  width: 250px;
+}
+
+.spideyGamesImage {
+  max-width: 350px;
+}
+
+.vsIcon {
+  max-width: 60px;
+}
+
+.PVP_Header .vsIcon {
+  max-width: 40px;
+}

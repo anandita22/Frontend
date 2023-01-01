@@ -1,0 +1,78 @@
+.TournamentTimerWrapper {
+  width: 300px;
+}
+
+.TournamentTimerWrapper span {
+  font-size: 2.75rem;
+  line-height: 1;
+}
+
+.TournamentTimerWrapper .timeText {
+  font-size: 0.875rem !important;
+}
+
+.TournamentTimerWrapper .timerDivider {
+  top: -4px;
+}
+
+.normalFont {
+  font-size: 1rem;
+}
+
+.tournamentDetails {
+  width: 100% !important;
+}
+
+.tournamentDetails span {
+  font-size: 2rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .TournamentTimerWrapper span {
+    font-size: 1.25rem !important;
+  }
+
+  .normalFont {
+    font-size: 0.875rem;
+  }
+
+  .TournamentTimerWrapper {
+    width: 200px;
+  }
+
+  .TournamentTimerWrapper .timerDivider {
+    top: -2px;
+  }
+
+  .tournamentDetails span {
+    font-size: 2rem !important;
+  }
+
+  .tournamentDetails {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .TournamentTimerWrapper span {
+    font-size: 0.875rem !important;
+  }
+
+  .TournamentTimerWrapper .timeText {
+    font-size: 0.65rem !important;
+  }
+
+  .tournamentDetails span {
+    font-size: 2rem !important;
+  }
+
+  .tournamentDetails {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .TournamentTimerWrapper {
+    width: 140px;
+  }
+}

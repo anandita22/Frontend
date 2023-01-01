@@ -1,0 +1,188 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #051a89;
+}
+
+.loginSignupWrapper {
+  box-shadow: 0px 50px 180px -10px rgba(44, 54, 92, 0.2);
+}
+
+.loginSignupWrapper .loginSignupHeading {
+  color: #333;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.input,
+.select {
+  color: #20292f !important;
+  border: 1px solid #bbb !important;
+  line-height: 2rem;
+  height: 50px;
+  box-shadow: none;
+  /* background-color: rgba(211, 221, 237, 0.22); */
+  background-color: white;
+  font-family: inherit;
+  outline: none;
+}
+
+.input:focus,
+.select:focus {
+  box-shadow: none;
+}
+
+.buttonStyle_1 {
+  border-width: 0;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  letter-spacing: 3px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-image: linear-gradient(90deg, #f92c8b 0%, #b02cd6 100%);
+  transition: 0.4s;
+  min-width: 100px;
+}
+
+.buttonStyle_1:hover {
+  transform-origin: left;
+  transform: translateX(5px);
+  /* background-image: linear-gradient(90deg, #c75964 0%, #b02cd6 100%); */
+}
+
+.buttonStyle_2:hover {
+  transform: translateX(0);
+  background-image: linear-gradient(90deg, #c75964 0%, #fcb6ab 100%);
+}
+
+.buttonStyle_1:focus,
+.buttonStyle_2:focus {
+  box-shadow: none;
+}
+
+.infoMsg {
+  color: #20292f;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.c-pointer {
+  cursor: pointer !important;
+}
+
+.c-default {
+  cursor: default !important;
+}
+
+.modalStyle {
+  box-shadow: 0px 50px 180px -10px rgba(44, 54, 92, 0.2);
+}
+
+.modal-dialog .modal-content {
+  border: none;
+  outline: none;
+}
+
+input[type="file"] {
+  color: #999 !important;
+}
+
+a {
+  color: #212529;
+}
+a:hover {
+  color: #212529;
+  text-decoration-line: none;
+}
+
+.buttonStyle_2 {
+  transition: 0.4s;
+  background-image: linear-gradient(90deg, #f7828e 0%, #fcb6ab 100%);
+}
+
+.showLeaderboard {
+  top: 0 !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.themeColor {
+  color: #2e3888;
+}
+
+.commonFont_Big {
+  font-size: 2rem;
+}
+
+.bottomSpace {
+  margin-bottom: 60px;
+}
+
+.pageHeading {
+  font-size: 2rem;
+}
+
+.themeBtn {
+  border-radius: 20px;
+  max-width: 300px;
+  background-color: #eff6ff;
+  color: #051168;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.themeBtn:hover,
+.themeBtn:active,
+.themeBtn:focus {
+  border-radius: 20px;
+  max-width: 300px;
+  background-color: #eff6ff !important;
+  color: #051168 !important;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+li::marker {
+  color: white;
+}
+
+.AskUserNameModal {
+  background-color: black;
+}
+
+.AskUserNameModal .modal-dialog{
+  margin-top: 175px;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+  .loginSignupWrapper .loginSignupHeading {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 575px) {
+  .loginSignupWrapper .loginSignupHeading {
+    font-size: 1.65rem;
+  }
+
+  .pageHeading {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 360px) {
+}

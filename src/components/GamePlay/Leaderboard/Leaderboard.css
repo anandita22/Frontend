@@ -1,0 +1,98 @@
+#leaderboard {
+  top: -150vh;
+  left: 0;
+  height: 100vh;
+  transition: 0.4s;
+}
+
+#leaderboard header {
+  padding: 3px 0;
+}
+
+#leaderboard .backLogo {
+  max-width: 9px;
+}
+
+#leaderboard .topUsersWrapper {
+  background-image: linear-gradient(180deg, #051a89, #081763);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 300px;
+}
+
+#leaderboard .userImageWrapper {
+  width: 110px;
+  height: 110px;
+}
+
+#leaderboard .arrowIcon {
+  max-width: 15px;
+}
+
+#leaderboard .iconRankWrapper {
+  top: -28px;
+  left: 48px;
+}
+
+#leaderboard .topUsersWrapper .leaderUserImage {
+  max-width: 110px;
+  border: 14px solid #243cc3;
+}
+
+#leaderboard .userImageWrapper span,
+#leaderboard .topUserRankWrapper span {
+  line-height: 1;
+  font-weight: 500;
+}
+
+#leaderboard .topUserWrapper {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 180px;
+}
+
+#leaderboard .topUserImage {
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 130px;
+}
+
+#leaderboard .topUserCrown {
+  top: 22%;
+}
+
+#leaderboard .topUserRankWrapper {
+  top: 88%;
+}
+
+/* #leaderboard .userImage {
+  max-width: 100px;
+}
+
+#leaderboard .scoreHeading {
+  font-size: 1.35rem;
+}
+
+#leaderboard .scoreValue {
+  font-size: 1.125rem;
+}
+
+#leaderboard .leaderboardEnteryImage {
+  max-width: 40px;
+}
+
+#leaderboard .leaderboardEnteryRow1 {
+  background-color: #2e3ba0;
+}
+
+#leaderboard .leaderboardEnteryRow2 {
+  background-color: rgb(48 62 185);
+}
+
+#leaderboard .allUserRank,
+#leaderboard .allUserName,
+#leaderboard .allUserScore {
+  font-size: 0.875rem;
+} */

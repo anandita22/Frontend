@@ -1,0 +1,48 @@
+.gameName {
+  font-size: 1.5rem;
+  color: #4f4d4d;
+}
+
+.sectionBg {
+  background-image: linear-gradient(180deg, #051a89, #081763);
+  border-bottom: 4px solid #08084a;
+}
+
+.sectionBg .gameName {
+  font-size: 1.25rem;
+  color: #ffce00;
+  font-weight: 500;
+}
+
+.sectionBg .moreLink {
+  font-size: 1rem;
+  color: #ffce00;
+  font-weight: 500;
+}
+
+.sectionBg .rightArrow {
+  font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .sectionBg .gameName {
+    font-size: 1rem;
+  }
+
+  .sectionBg .moreLink {
+    font-size: 0.75rem;
+  }
+
+  .sectionBg .rightArrow {
+    font-size: 0.6rem;
+  }
+  
+}
+
+@media only screen and (max-width: 575px) {
+  .gameName {
+    font-size: 1.25rem;
+  }
+}
+
+

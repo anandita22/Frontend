@@ -1,0 +1,66 @@
+.FreeGameWrapper {
+  overflow-x: scroll;
+
+}
+
+.FreeGameWrapper::-webkit-scrollbar {
+  height: 4px;
+}
+
+.FreeGameWrapper::-webkit-scrollbar-thumb {
+  background-color: #3e51b5;
+  border-radius: 10px;
+}
+
+.singleGameWrapper {
+  border-radius: 20px;
+  min-width: 175px;
+  max-width: 175px;
+}
+
+.singleGameWrapper .gameImage {
+  border-radius: 20px;
+  min-width: 175px;
+  max-width: 175px;
+}
+
+.singleGameWrapper .FreeGameWrapper__gameName {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: black;
+}
+
+.singleGameWrapper .FreeGameWrapper__playNow {
+  max-width: 25px;
+  bottom: -10px;
+}
+
+.moreGamesIcon {
+  left: 52%;
+  top: 40%;
+  font-size: 3.5rem;
+  color: #3e51b5;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 992px) {
+  .singleGameWrapper {
+    border-radius: 10px;
+    min-width: 100px;
+    max-width: 100px;
+  }
+
+  .singleGameWrapper .gameImage {
+    border-radius: 10px;
+    min-width: 100px;
+    max-width: 100px;
+  }
+
+  .singleGameWrapper .FreeGameWrapper__gameName {
+    font-size: 0.87rem;
+  }
+
+  .moreGamesIcon {
+    font-size: 2.5rem;
+  }
+}

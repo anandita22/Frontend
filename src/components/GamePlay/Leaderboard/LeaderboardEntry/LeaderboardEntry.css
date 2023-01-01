@@ -1,0 +1,18 @@
+.leaderboardEntryWrapper {
+  background-color: #eff6ff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 0px #299595;
+}
+
+.leaderboardEntryWrapper span {
+  font-weight: 500;
+  color: #2c2c2c;
+}
+
+.leaderboardEntryWrapper .leaderboardEntryImage {
+  max-width: 50px;
+}
+
+.leaderboardEntryWrapper .leaderboardEntryScore {
+  font-size: 1.2rem;
+}

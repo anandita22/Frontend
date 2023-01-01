@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+        <linearGradient id="skkhi3fqda" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="gray"/>
+        </linearGradient>
+        <linearGradient id="as7yv91hqb" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffdc64"/>
+            <stop offset="1" stop-color="#db8f27"/>
+        </linearGradient>
+    </defs>
+    <g transform="translate(-124 -645)">
+        <circle cx="11" cy="11" r="11" fill="url(#skkhi3fqda)" opacity="0.343" transform="translate(124 645)"/>
+        <g>
+            <path fill="url(#as7yv91hqb)" stroke="#fff" d="M10.388 5.194v-3.03a.433.433 0 0 0-.433-.433h-3.03a1.731 1.731 0 0 0-3.463 0H.433A.433.433 0 0 0 0 2.164v3.091a1.7 1.7 0 0 1 .433-.061 1.731 1.731 0 1 1 0 3.463A1.706 1.706 0 0 1 0 8.595v3.091a.433.433 0 0 0 .433.433h3.091a1.7 1.7 0 0 1-.061-.433 1.731 1.731 0 1 1 3.463 0 1.706 1.706 0 0 1-.061.433h3.09a.433.433 0 0 0 .433-.433v-3.03a1.731 1.731 0 1 0 0-3.463z" transform="translate(129.28 650)"/>
+        </g>
+    </g>
+</svg>
